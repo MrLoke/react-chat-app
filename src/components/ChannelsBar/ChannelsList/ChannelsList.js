@@ -3,6 +3,8 @@ import UserProfile from 'components/ChannelsBar/UserProfile/UserProfile'
 import Channel from 'components/ChannelsBar/Channel/Channel'
 import AddChannelModal from 'components/ChannelsBar/AddChannelModal/AddChannelModal'
 import LoadingSpinner from 'components/LoadingSpinner/LoadingSpinner'
+import { useDispatch } from 'react-redux'
+import { setChannelInfo } from 'features/channelSlice'
 import { AiOutlineMenu } from 'react-icons/ai'
 import { IoIosAddCircleOutline } from 'react-icons/io'
 import { db } from 'firebase-config'
@@ -13,12 +15,15 @@ import {
   AddChannel,
   AddChannelText,
 } from './ChannelsListStyled'
+import { useHistory } from 'react-router-dom'
 
 const ChannelsList = () => {
   const [isChannelsOpen, setIsChannelsOpen] = useState(false)
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [addChannelName, setAddChannelName] = useState('')
   const [channels, setChannels] = useState([])
+  const history = useHistory()
+  const dispatch = useDispatch()
 
   const openModal = () => setIsModalOpen(true)
   const closeModal = () => setIsModalOpen(false)
@@ -43,6 +48,12 @@ const ChannelsList = () => {
     } else return
     closeModal()
     setAddChannelName('')
+    dispatch(
+      setChannelInfo({
+        channelName: addChannelName,
+      })
+    )
+    history.push(`/channel/${addChannelName}`)
   }
 
   return (
