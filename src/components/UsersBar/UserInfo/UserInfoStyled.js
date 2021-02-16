@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 export const UserContainer = styled.div`
   display: flex;
   align-items: center;
-  margin: 5px 0 5px 15px;
+  margin: 10px 0 10px 15px;
 `
 
 export const UserAvatar = styled.img`
