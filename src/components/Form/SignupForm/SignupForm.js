@@ -57,7 +57,7 @@ const SignupForm = () => {
         setLoading(false)
         setError(error.message)
       })
-    history.push('/channel/general')
+    history.push('/')
     setLoading(true) // prevent to create multiple accounts
   }
 

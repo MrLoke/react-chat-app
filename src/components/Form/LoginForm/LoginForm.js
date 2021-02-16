@@ -36,7 +36,7 @@ const LoginForm = () => {
             email: userAuh.user.email,
           })
         )
-        history.push('/channel/general')
+        history.push('/')
       })
       .catch((error) => {
         setLoading(false)
