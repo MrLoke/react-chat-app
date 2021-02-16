@@ -22,20 +22,15 @@ const ChatFeed = () => {
   const [messages, setMessages] = useState([])
 
   useEffect(() => {
-    const unsubscribe = () => {
-      if (channelId) {
-        db.collection('channels')
-          .doc(channelId)
-          .collection('messages')
-          .orderBy('timestamp', 'asc')
-          .onSnapshot((snapshot) =>
-            setMessages(snapshot.docs.map((doc) => doc.data()))
-          )
-      }
+    if (channelId) {
+      db.collection('channels')
+        .doc(channelId)
+        .collection('messages')
+        .orderBy('timestamp', 'asc')
+        .onSnapshot((snapshot) =>
+          setMessages(snapshot.docs.map((doc) => doc.data()))
+        )
     }
-    unsubscribe()
-    
-    return () => unsubscribe()
   }, [channelId])
 
   const sendMessage = (e) => {
