@@ -20,7 +20,7 @@ export const CurrentUserProfile = styled.div`
 export const UserAvatar = styled.img`
   width: 50px;
   height: 50px;
-  border: 2px solid ${({ theme }) => theme.colors.dark};
+  border: 2px solid ${({ theme }) => theme.colors.primaryShade};
   border-radius: 50px;
 `
 

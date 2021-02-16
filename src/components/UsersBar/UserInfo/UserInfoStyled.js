@@ -9,7 +9,7 @@ export const UserContainer = styled.div`
 export const UserAvatar = styled.img`
   width: 50px;
   height: 50px;
-  border: 2px solid ${({ theme }) => theme.colors.dark};
+  border: 2px solid ${({ theme }) => theme.colors.primaryShade};
   border-radius: ${({ theme }) => theme.utils.bigRadius};
   cursor: pointer;
 `
