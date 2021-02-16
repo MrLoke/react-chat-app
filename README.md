@@ -16,7 +16,7 @@
 
 ***
 
-<img src="src/assets/app/chat-app-1.png" width="1911" height="937">
-<img src="src/assets/app/chat-app-mobile.jpg" width="720" height="1545">
+<img src="src/assets/app/chat-app-1.png" width="1000" height="490">
+<img src="src/assets/app/chat-app-mobile.png" width="466" height="1000">
 <img src="src/assets/app/chat-app-form1.png" width="702" height="930">
 <img src="src/assets/app/chat-app-form2.png" width="695" height="937">
