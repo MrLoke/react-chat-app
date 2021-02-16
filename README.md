@@ -5,13 +5,22 @@
 
 ***
 
+### Functionalities ⌨️
+<ul>
+  <li>Signup/Login ✅</li>
+  <li>Create own channel ✅</li>
+  <li>Send messages and add file ✅</li>
+  <li>Search registered users ✅</li>
+  <li>Full mobile responsive ✅</li>
+</ul>
+
 ### Technologies used 🖥️
 <ul>
-  <li>Firebase authentication / firestore ✅</li>
-  <li>Redux Toolkit ✅</li>
-  <li>React Hook Form ✅</li>
-  <li>Styled Components ✅</li>
-  <li>React Router Dom ✅</li>
+  <li>Firebase authentication / firestore</li>
+  <li>Redux Toolkit</li>
+  <li>React Hook Form</li>
+  <li>Styled Components</li>
+  <li>React Router Dom</li>
 </ul>
 
 ***
