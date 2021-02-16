@@ -15,6 +15,7 @@ export const userSlice = createSlice({
     logout: (state) => {
       auth.signOut()
       localStorage.removeItem('persist:user')
+      localStorage.removeItem('persist:channel')
       state.userInfo = null
       state.isLogged = false
     },
