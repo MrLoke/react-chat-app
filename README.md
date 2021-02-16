@@ -9,16 +9,16 @@
 
 ### Functionalities ⌨️
 <ul>
-  <li>Signup/Login ✅</li>
+  <li>Signup/Login validation ✅</li>
   <li>Create own channel ✅</li>
-  <li>Send messages and add file ✅</li>
+  <li>Send messages and attach file ✅</li>
   <li>Search registered users ✅</li>
   <li>Full mobile responsive ✅</li>
 </ul>
 
 ### Technologies used 🖥️
 <ul>
-  <li>Firebase authentication / firestore</li>
+  <li>Firebase authentication / Firestore</li>
   <li>Redux Toolkit</li>
   <li>React Hook Form</li>
   <li>Styled Components</li>
