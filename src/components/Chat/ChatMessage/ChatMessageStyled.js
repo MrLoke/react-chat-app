@@ -38,4 +38,5 @@ export const UserName = styled.p`
 export const UserMessage = styled.p`
   color: ${({ theme }) => theme.colors.light};
   font-size: ${({ theme }) => theme.size.s};
+  line-height: 1.3;
 `
