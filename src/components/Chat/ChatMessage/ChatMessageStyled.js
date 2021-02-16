@@ -22,7 +22,7 @@ export const UserAvatar = styled.img`
 export const UserFeedContainer = styled.div`
   display: flex;
   flex-direction: column;
-  min-width: 90%;
+  min-width: 80%;
   padding: 5px 15px 10px 15px;
   border-radius: 20px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.3);
