@@ -1,7 +1,9 @@
 # React Chat App
 
-[LIVE DEMO](https://www.chat-2405e.com)
-### email: demo@gmail.com password: demo123
+### [LIVE DEMO](https://chat-2405e.web.app/login)
+### Demo account
+### email: demo@gmail.com
+### password: demo123
 
 ***
 
