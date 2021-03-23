@@ -34,9 +34,20 @@ const UsersList = () => {
 
       <MobileUsersBarWrapper isUsersListOpen={isUsersListOpen}>
         <SearchUserInput />
-        {users.map((user, i) => (
-          <UserInfo key={i} user={user} />
-        ))}
+        {users.length === 0 ? (
+          <LoadingSpinner />
+        ) : (
+          users
+            .filter((user) =>
+              user.displayName.toLowerCase().includes(searchingUser)
+            )
+            .map((user, i) => (
+              <UserInfo
+                key={i}
+                user={user}
+              />
+            ))
+        )}
       </MobileUsersBarWrapper>
       {/* -----------------END MOBILE SECTION----------------- */}
 
@@ -50,7 +61,12 @@ const UsersList = () => {
             .filter((user) =>
               user.displayName.toLowerCase().includes(searchingUser)
             )
-            .map((user, i) => <UserInfo key={i} user={user} />)
+            .map((user, i) => (
+              <UserInfo
+                key={i}
+                user={user}
+              />
+            ))
         )}
       </UsersListContainer>
     </>
