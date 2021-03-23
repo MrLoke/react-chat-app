@@ -85,7 +85,7 @@ const ChatFeed = () => {
   return (
     <ChatFeedWrapper>
       <ChatHeader />
-      <ChatMessageWrapper>
+      <ChatMessageWrapper ref={messagesContainer}>
         {messages.length === 0 && (
           <EmptyChannelContainer>
             <EmptyChannelText>Lets type something!</EmptyChannelText>
