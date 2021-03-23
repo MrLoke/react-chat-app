@@ -9,7 +9,7 @@ export const ChannelsListContainer = styled.div`
     background-color: ${({ theme }) => theme.colors.secondary};
     height: 100vh;
     width: 25%;
-    overflow-y: scroll;
+    overflow-y: auto;
     scrollbar-width: none;
     ::-webkit-scrollbar {
       display: none;
@@ -47,10 +47,10 @@ export const MobileIcon = styled.div`
 export const MobileChannelsBarWrapper = styled.aside`
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 85%;
   background-color: ${({ theme }) => theme.colors.secondary};
   height: 100vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   position: absolute;
   top: 0;
   left: 0;

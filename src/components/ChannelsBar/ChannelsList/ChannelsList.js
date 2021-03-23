@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import UserProfile from 'components/ChannelsBar/UserProfile/UserProfile'
 import Channel from 'components/ChannelsBar/Channel/Channel'
-import AddChannelModal from 'components/ChannelsBar/AddChannelModal/AddChannelModal'
+import AddChannelModal from 'components/AddChannelModal/AddChannelModal'
 import LoadingSpinner from 'components/LoadingSpinner/LoadingSpinner'
 import { useDispatch } from 'react-redux'
 import { setChannelInfo } from 'features/channelSlice'
