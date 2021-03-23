@@ -4,7 +4,8 @@ export const StyledSpinnerContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: ${({ fullScreen }) => fullScreen ? '100vh' : '20vh'};
+  background-color: ${({ fullScreen, theme }) => fullScreen ? theme.colors.primary : 'transparent'};
 `
 
 export const StyledSpinner = styled.svg`

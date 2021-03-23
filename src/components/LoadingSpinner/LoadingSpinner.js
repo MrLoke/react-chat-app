@@ -1,8 +1,8 @@
 import { StyledSpinnerContainer, StyledSpinner } from './LoadingSpinnerStyled'
 
-const LoadingSpinner = () => {
+const LoadingSpinner = ({ fullScreen }) => {
   return (
-    <StyledSpinnerContainer>
+    <StyledSpinnerContainer fullScreen={fullScreen}>
       <StyledSpinner viewBox='0 0 50 50'>
         <circle
           className='path'
