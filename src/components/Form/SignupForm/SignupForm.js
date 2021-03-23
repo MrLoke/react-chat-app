@@ -36,6 +36,7 @@ const SignupForm = () => {
           displayName: value.username,
           email: value.email,
           photoURL: value.profile_avatar,
+          status: 'online',
         })
         userAuth.user
           .updateProfile({
