@@ -5,6 +5,7 @@ export const Form = styled.form`
   align-items: center;
   justify-content: center;
   padding: 10px 0 20px 0;
+  background-color: ${({ theme }) => theme.colors.primaryDark};
 `
 
 export const InputMessage = styled.input`

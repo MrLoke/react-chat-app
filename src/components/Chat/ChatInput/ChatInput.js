@@ -9,7 +9,14 @@ import {
   SendMessageBtn,
 } from './ChatInputStyled'
 
-const ChatInput = ({ input, setInput, sendMessage, channelName }) => {
+const ChatInput = ({
+  input,
+  setInput,
+  sendMessage,
+  channelName,
+  onFileChange,
+}) => {
+
   return (
     <Form onSubmit={sendMessage}>
       <AddFileContainer>
@@ -19,7 +26,9 @@ const ChatInput = ({ input, setInput, sendMessage, channelName }) => {
         <AddFileInput
           id='file-input'
           type='file'
-          accept='image/png, image/jpeg'
+          accept='image/*'
+          multiple
+          onChange={onFileChange}
         />
       </AddFileContainer>
       <InputMessage
