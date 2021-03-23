@@ -11,8 +11,10 @@
 <ul>
   <li>Signup/Login validation ✅</li>
   <li>Create own channel ✅</li>
-  <li>Send messages and attach file ✅</li>
+  <li>Send messages and attach image ✅</li>
   <li>Search registered users ✅</li>
+  <li>Edit user name, email, password, photo and delete account ✅</li>
+  <li>Real time user status online/offline ✅</li>
   <li>Full mobile responsive ✅</li>
 </ul>
 
@@ -28,6 +30,7 @@
 ***
 
 <img src="src/assets/app/chat-app-1.png" width="1000" height="490">
+<img src="src/assets/app/chat-app-2.png" width="1000" height="490">
 <img src="src/assets/app/chat-app-mobile.png" width="466" height="1000">
 <img src="src/assets/app/chat-app-form1.png" width="702" height="930">
 <img src="src/assets/app/chat-app-form2.png" width="695" height="937">
