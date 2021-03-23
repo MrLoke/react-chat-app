@@ -1,6 +1,7 @@
 export const theme = {
   colors: {
     primary: 'rgba(44, 47, 51)',
+    primaryDark: 'rgba(40, 43, 47)',
     secondary: 'rgba(35, 39, 42)',
     primaryShade: '	rgba(114, 137, 218)',
     secondaryShade: '	rgba(153, 170, 181)',
@@ -9,6 +10,7 @@ export const theme = {
     white: 'rgba(255, 255, 255)',
     light: 'rgba(243, 243, 243)',
     dark: 'rgba(17, 17, 17)',
+    green: 'rgba(46, 204, 113)',
     warning: 'rgba(244, 67, 54)',
   },
   size: {
