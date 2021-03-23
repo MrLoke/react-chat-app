@@ -27,5 +27,6 @@ export const EmptyChannelText = styled.h2`
 
 export const ChatMessageWrapper = styled.div`
   flex: 1;
-  overflow-y: scroll;
+  overflow-y: auto;
+  position: relative;
 `
