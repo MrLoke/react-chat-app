@@ -44,8 +44,7 @@ const Home = () => {
           <ChannelsList />
           <HomeChatWrapper>
             <HomeHeader>
-              <HomeHeaderText>Welcome to chat!</HomeHeaderText>
-              <HomeHeaderText>Explore channels or create your own channel</HomeHeaderText>
+              <HomeHeaderText>Welcome again {user.userInfo.displayName}</HomeHeaderText>
             </HomeHeader>
           </HomeChatWrapper>
           <UsersList />
