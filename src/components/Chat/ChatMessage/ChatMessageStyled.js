@@ -40,3 +40,8 @@ export const UserMessage = styled.p`
   font-size: ${({ theme }) => theme.size.s};
   line-height: 1.3;
 `
+
+export const ImageMessage = styled.img`
+  max-height: 300px;
+  max-width: 300px;
+`
