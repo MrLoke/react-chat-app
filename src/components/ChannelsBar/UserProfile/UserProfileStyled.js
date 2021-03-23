@@ -34,8 +34,14 @@ export const UserName = styled.p`
 export const UserAction = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 5px 0;
+  width: 100%;
   cursor: pointer;
+  ${({ theme }) => theme.media.lg} {
+    width: 30%;
+    justify-content: flex-start;
+  }
 `
 
 export const UserActionText = styled.p`
