@@ -7,7 +7,7 @@
 
 ***
 
-### Functionalities ⌨️
+### Features ⌨️
 <ul>
   <li>Signup/Login validation ✅</li>
   <li>Create own channel ✅</li>
@@ -18,7 +18,7 @@
   <li>Full mobile responsive ✅</li>
 </ul>
 
-### Technologies used 🖥️
+### Tech Stack 🖥️
 <ul>
   <li>Firebase authentication / Firestore</li>
   <li>Redux Toolkit</li>
